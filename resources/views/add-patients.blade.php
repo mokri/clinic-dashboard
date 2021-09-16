@@ -24,32 +24,32 @@
                                         <input class="form-control @error('lname') is-invalid @enderror" type="text" name="lname">
                                     </div>
                                 </div>
-                              
+
                                     <div class="col-sm-6">
                                     <div class="form-group">
-                                        <label>Numero de la cart <span class="text-danger">*</span></label>
+                                        <label>Numero de la cart <span class="text-danger"></span></label>
                                         <input class="form-control" type="tel" name="cardNumber">
                                     </div>
                                 </div>
-                                
+
                                 <div class="col-sm-6">
                                     <div class="form-group">
                                         <label>Email <span class="text-danger">*</span></label>
                                         <input class="form-control" type="email" name="email">
                                     </div>
                                 </div>
-                                
+
                                   <div class="col-sm-6">
                                     <div class="form-group">
                                         <label>Numero de telephone <span class="text-danger">*</span></label>
                                         <input class="form-control" type="tel" name="tel">
                                     </div>
                                 </div>
-                                
-                             
-                                
-                             
-                              
+
+
+
+
+
 								<div class="col-sm-6">
                                     <div class="form-group">
                                         <label>Date de naissance</label>
@@ -59,7 +59,7 @@
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
-                                   
+
                                     <div class="form-group">
 										<label class="gen-label">fonctionnalité</label>
 										<select name="type"  class="select @error('type') is-invalid @enderror">
@@ -74,8 +74,8 @@
                                     </span>
                                         @enderror
 									</div>
-                                    
-                                    
+
+
 									<div class="form-group gender-select">
 										<label class="gen-label">Gender:</label>
 										<div class="form-check-inline">
@@ -94,12 +94,12 @@
 											</label>
 										</div>
 									</div>
-                                    
-                              
-                                    
-                        
-                                    
-                                    
+
+
+
+
+
+
                                 </div>
 								<div class="col-sm-12">
 									<div class="row">
@@ -109,11 +109,11 @@
 												<input type="text" name="address" class="form-control ">
 											</div>
 										</div>
-									
-									
+
+
 									</div>
 								</div>
-                              
+
                                 <div class="col-sm-6">
 									<div class="form-group">
 										<label>Avatar</label>
@@ -135,5 +135,5 @@
                         </form>
                     </div>
                 </div>
-     
+
 @endsection

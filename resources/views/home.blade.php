@@ -26,7 +26,7 @@
                             <span class="dash-widget-bg4"><i class="fa fa-users" aria-hidden="true"></i></span>
                             <div class="dash-widget-info text-right">
                                 <h3>{{ $profNumber }}</h3>
-                                <span class="widget-title4">Professeurs <i class="fa fa-check" aria-hidden="true"></i></span>
+                                <span class="widget-title4">Enseignants <i class="fa fa-check" aria-hidden="true"></i></span>
                             </div>
                         </div>
                     </div>
@@ -42,7 +42,7 @@
 						</div>
 
                 </div>
-				
+
 				<div class="row">
 					<div class="col-12 col-md-6 col-lg-8 col-xl-8">
 						<div class="card">
@@ -175,7 +175,7 @@
 							</div>
 						</div>
 					</div>
-				
+
 				</div>
-     
+
 @endsection
