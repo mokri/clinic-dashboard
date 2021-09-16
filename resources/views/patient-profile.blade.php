@@ -65,7 +65,7 @@
         <form method="get" action="{{route('diagnosis.store',['pid'=>$patient->id])}}">
             @csrf
         <ul class="nav nav-tabs nav-tabs-bottom">
-            <li class="nav-item"><a class="nav-link active" href="#about-cont" data-toggle="tab">Diagnostic</a></li>
+            <li class="nav-item"><a class="nav-link active" href="#about-cont" data-toggle="tab">Diagnostique</a></li>
             <li class="nav-item"><a class="nav-link" href="#bottom-tab2" data-toggle="tab">Traitement</a></li>
 
             <input type="submit" value="Enregister" class="btn float-right btn-primary ">
@@ -77,7 +77,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="card-box">
-                            <h3 class="card-title">Détails du diagnostic</h3>
+                            <h3 class="card-title">Détails du diagnostique</h3>
                             <div class="experience-box">
                                 <ul class="experience-list">
                                     <li>
@@ -134,7 +134,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="card-box">
-                            <h3 class="card-title">Détails du diagnostic</h3>
+                            <h3 class="card-title">Détails du traitement</h3>
                             <div class="experience-box">
                                 <ul class="experience-list">
                                     <li>
